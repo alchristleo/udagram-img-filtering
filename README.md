@@ -19,3 +19,9 @@ eb deploy
 ```
 
 EB URL: http://udagram-alc-dev-dev.us-east-2.elasticbeanstalk.com/filteredimage?image_url=https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg
+Request headers: `X-API-Key`: `alcdev`
+
+Sample curl: 
+```sh
+curl http://udagram-alc-dev-dev.us-east-2.elasticbeanstalk.com/filteredimage?image_url=https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg -H "X-API-Key: alcdev" --output test.png
+```
