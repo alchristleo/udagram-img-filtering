@@ -23,7 +23,6 @@ package-lock.json
 coverage/
 www/
 node_modules/
-screenshots/
 tmp/
 temp/
 platforms/
